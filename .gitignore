@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+btc_history.csv
+.env
+.venv/
+venv/
+.streamlit/secrets.toml
