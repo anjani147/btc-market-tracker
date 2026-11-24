@@ -131,7 +131,52 @@ The price collection bot records the following fields:
 
 Generated CSV files can be opened using Microsoft Excel, Pandas, or other data analysis tools.
 
+## Implementation Status
 
+- [x] Live market API integration
+- [x] Historical price collection
+- [x] Streamlit dashboard
+- [x] Interactive candlestick charts
+- [x] Multiple market timeframes
+- [x] EMA indicators
+- [x] Trading volume visualization
+- [x] CSV data export
+- [x] Local application testing
+- [x] GitHub publishing
+- [ ] Application screenshots
+- [ ] Sample historical dataset
+- [ ] RSI and MACD indicators
+- [ ] Telegram price alerts
+- [ ] WebSocket integration
+- [ ] Cloud deployment
+
+## Current Limitations
+
+- Uses REST API polling rather than continuous WebSocket streaming.
+- Requires an active internet connection.
+- Local data collection stops when the bot is closed.
+- Candle data is cached for 30 seconds.
+- Does not predict prices or execute trades.
+
+## Application Screenshots
+
+### 1. Live Bitcoin Price Tracking Bot
+
+Real-time BTC/USD price collection through the Coinbase REST API.
+
+![BTC Price Tracking Bot](Screenshots/bot_terminal.png)
+
+### 2. Bitcoin Market Dashboard (V1)
+
+Live price monitoring and historical market visualization.
+
+![Bitcoin Market Dashboard](Screenshots/Dashboard_v1.png)
+
+### 3. Advanced Trading Terminal (V2)
+
+Interactive candlestick charts, EMA indicators, trading volume, and multiple timeframes.
+
+![Advanced Trading Terminal](Screenshots/Dashboard_v2.png)
 
 
 ## Disclaimer
